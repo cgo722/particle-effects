@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_pRising_Sparks
-  m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: M_Rising_Sparks
+  m_Shader: {fileID: -6465566751694194690, guid: d7a745405778a4846a23d9b6e00f392b, type: 3}
   m_Parent: {fileID: 2100000, guid: 36c5b774fe4186366a7e23109bd2d2ab, type: 2}
-  m_ModifiedSerializedProperties: 0
+  m_ModifiedSerializedProperties: 8
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,16 +21,21 @@ Material:
   disabledShaderPasses:
   - MOTIONVECTORS
   - GRABPASS
-  m_LockedProperties: 
+  m_LockedProperties: _MainTex
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 98b822ddbcc601d0e808a3004aa109c4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4438e756b626adc4ea9fd969442fc8cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sprite:
+        m_Texture: {fileID: 2800000, guid: 4438e756b626adc4ea9fd969442fc8cc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _InvFade: 0.01
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -7,12 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Pop_Instance
-  m_Shader: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: M_Trail_Instance
+  m_Shader: {fileID: -6465566751694194690, guid: d7a745405778a4846a23d9b6e00f392b, type: 3}
   m_Parent: {fileID: 2100000, guid: 36c5b774fe4186366a7e23109bd2d2ab, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _REQUIRE_UV2
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -27,12 +26,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2e281fa08fed51e7da2a0388194f24b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: fd9465ba656ac9f52a416491150a1b8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sprite:
+        m_Texture: {fileID: 2800000, guid: fd9465ba656ac9f52a416491150a1b8d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _FlipbookMode: 1
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
